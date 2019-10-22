@@ -12,11 +12,6 @@ html, body{
     height: 94vh;
 }
 
-/* .selected {
-    background-color: green;
-    color: #08415C;
-} */
-
 .tab-content, .tab-pane {
     height: 100%;
 }
@@ -57,10 +52,19 @@ html, body{
     display: none;
 }
 
+polyline {
+    fill:none;
+    stroke:grey;
+    stroke-width:3;
+}
+
 .carousel {
     margin-top: auto;
 }
 
+.homework {
+    overflow: auto;
+}
 
 /* USED BOOTSTRAP INSTEAD */
 /* .leftScreen {
@@ -77,4 +81,10 @@ html, body{
     right: 0;
     height: 100%;
     width: 50%;
+} */
+
+
+/* .selected {
+    background-color: green;
+    color: #08415C;
 } */

@@ -3,10 +3,8 @@
 //changes tab bg colors
 $('.selector').click(function(e) {
     e.preventDefault();
-    console.log(this)
-    $('.selector').removeClass('bg-secondary text-white')
-    $(this).addClass('bg-secondary text-white')
-    
+    $('.selector').removeClass('bg-secondary text-white');
+    $(this).addClass('bg-secondary text-white');
 })
 // *******************End Nav Bar*********************
 
@@ -18,9 +16,9 @@ $(document).ready( () => {
 
     $('body').click( (e) =>{
         e.preventDefault();
-        $('.middleScreen').hide();
+        $('.middleScreen').fadeOut();
         $('.middleScreenClick').hide();
-        $('.home-content').show();
+        $('.home-content').fadeIn();
     })
 
 })
