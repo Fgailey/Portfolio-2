@@ -47,6 +47,20 @@ html, body{
     overflow-wrap: break-word;
 }
 
+.middleScreenClick {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.home-content {
+    display: none;
+}
+
+.carousel {
+    margin-top: auto;
+}
+
 
 /* USED BOOTSTRAP INSTEAD */
 /* .leftScreen {

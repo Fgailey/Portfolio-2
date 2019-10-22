@@ -12,10 +12,16 @@ $('.selector').click(function(e) {
 
 // *******************CONTENT AREA********************
 //hides WELCOME on home screen on click
-$(document).click( (e) =>{
-    e.preventDefault();
-    $('.middleScreen').hide();
+
+$(document).ready( () => {
+
+
+    $('body').click( (e) =>{
+        e.preventDefault();
+        $('.middleScreen').hide();
+        $('.middleScreenClick').hide();
+        $('.home-content').show();
+    })
+
 })
-
-
 // *******************END CONTENT*********************
