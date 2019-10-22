@@ -11,45 +11,67 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
-  <body>
+  <body class="bg-white">
       <div class="container-fluid">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs bg-dark" id="navId">
               <li class="nav-item">
-                  <a href="#homeTab" class="nav-link active text-white bg-dark" data-toggle="tab">Home</a>
+                  <a href="#homeTab" class="nav-link active nav-color-white selector bg-secondary" data-toggle="tab">Home</a>
               </li>
               <li class="nav-item">
-                    <a class="nav-link text-white bg-dark" href="#portTab" data-toggle="tab">Portfolio</a>
+                    <a class="nav-link nav-color-white selector" href="#portTab" data-toggle="tab">Portfolio</a>
                 </li>
               <li class="nav-item">
-                    <a class="nav-link text-white bg-dark" href="#contactTab" data-toggle="tab">Contact</a>
+                    <a class="nav-link nav-color-white selector" href="#contactTab" data-toggle="tab">Contact</a>
                 </li>              
               <li class="nav-item">
-                  <a href="#tab5Id" class="nav-link">Resume</a>
+                  <a href="#tab5Id" class="nav-link nav-color-white">Resume</a>
               </li>
               <li class="nav-item">
-                  <a href="#" class="nav-link">LinkedIn</a>
+                  <a href="#" class="nav-link nav-color-white">LinkedIn</a>
               </li>
           </ul>
           
           <!-- Tab panes -->
+          
           <div class="tab-content">
                 <div class="tab-pane fade show active" id="homeTab" role="tabpanel">
-                    Home
-                    <div class="fullScreen">
+                    <div class="row mx-0 h-100">
+                        <div class="middleScreen">
+                            Welcome
+                        </div>
+                        <div class="col-sm blue-bg">
+                            Home
+                            
+                        </div>
+                        <div class="col-sm">
 
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="tab-pane fade" id="portTab" role="tabpanel">
-                    Portfolio
-                    <div class="fullScreen">
+                    <div class="row mx-0 h-100">
+                        <div class="col-sm blue-bg">
+                            Portfolio
+                            
+                        </div>
+                        <div class="col-sm bg-light">
 
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="tab-pane fade" id="contactTab" role="tabpanel">
-                    Contact
-                    <div class="fullScreen">
+                    <div class="row mx-0 h-100">
+                        <div class="col-sm blue-bg">
+                            Contact
+                            
+                        </div>
+                        <div class="col-sm">
 
+                        </div>
+                        
                     </div>
                 </div>
           </div>
@@ -65,3 +87,46 @@
     <script src="./assets/script.js"></script>
 </body>
 </html>
+
+<!-- Custom CSS tabs content -->
+<!-- <div class="tab-content">
+                <div class="tab-pane fade show active" id="homeTab" role="tabpanel">
+                    <div class="fullScreen">
+                        <div class="middleScreen">
+                            Welcome
+                        </div>
+                        <div class="leftScreen">
+                            Home
+                            
+                        </div>
+                        <div class="rightScreen">
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="portTab" role="tabpanel">
+                    <div class="fullScreen">
+                        <div class="leftScreen">
+                            Portfolio
+                            
+                        </div>
+                        <div class="rightScreen">
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contactTab" role="tabpanel">
+                    <div class="fullScreen">
+                        <div class="leftScreen">
+                            Contact
+                            
+                        </div>
+                        <div class="rightScreen">
+
+                        </div>
+                        
+                    </div>
+                </div>
+          </div> -->

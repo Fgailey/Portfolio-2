@@ -1,0 +1,66 @@
+html, body{
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    overflow: auto;
+    font-family: 'yantramanav', sans-serif;
+}
+ 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    height: 94vh;
+}
+
+/* .selected {
+    background-color: green;
+    color: #08415C;
+} */
+
+.tab-content, .tab-pane {
+    height: 100%;
+}
+
+.nav-color-white {
+    color: #E8F1F2;
+}
+
+.fullScreen {
+    margin: auto;
+    height: 100%;
+    margin: 15px;
+    background-color: #0C638C;
+    position: relative;
+}
+
+.blue-bg {
+    background-color:#0C638C; 
+}
+
+.middleScreen {
+    position: absolute;
+    width: 100%;
+    top:35%;
+    z-index: 5;
+    text-align: center;
+    font-size: 12ch;
+    overflow-wrap: break-word;
+}
+
+
+/* USED BOOTSTRAP INSTEAD */
+/* .leftScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+.rightScreen {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 50%;
+} */
