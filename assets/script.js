@@ -15,7 +15,6 @@ $(document).ready( () => {
 
 
     $('body').click( (e) =>{
-        e.preventDefault();
         $('.middleScreen').fadeOut();
         $('.middleScreenClick').hide();
         $('.home-content').fadeIn();
