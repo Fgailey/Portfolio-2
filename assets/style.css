@@ -69,6 +69,10 @@ polyline {
     display:inline-block;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /* USED BOOTSTRAP INSTEAD */
 /* .leftScreen {
     position: absolute;
