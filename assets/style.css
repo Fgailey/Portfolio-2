@@ -20,14 +20,6 @@ html, body{
     color: #E8F1F2;
 }
 
-.fullScreen {
-    margin: auto;
-    height: 100%;
-    margin: 15px;
-    background-color: #0C638C;
-    position: relative;
-    
-}
 
 .blue-bg {
     background-color:#0C638C; 
@@ -74,6 +66,16 @@ a:link {
 }
 
 /* USED BOOTSTRAP INSTEAD */
+
+
+/* .fullScreen {
+    margin: auto;
+    height: 100%;
+    margin: 15px;
+    background-color: #0C638C;
+    position: relative;
+    
+} */
 /* .leftScreen {
     position: absolute;
     top: 0;
